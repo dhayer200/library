@@ -176,22 +176,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "smart-random-note:Open Random Note from Search": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "6f0b77afbfb28164",
+  "active": "9dfb6b3740791b19",
   "lastOpenFiles": [
+    "study/permanent",
+    "study/literature",
+    "README.md",
     "study/Reading List.md",
     "study/zettel stack and philosophy.md",
-    "README.md",
     "zettel stack and philosophy.md",
     "Reading List.md",
     "Welcome.md"
