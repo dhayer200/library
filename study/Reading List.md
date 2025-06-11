@@ -3,120 +3,125 @@ id: Reading List
 aliases: []
 tags: []
 ---
-Below is the **same roadmap** you gave me—**unchanged**—with **three new books** inserted in their own section so you can drop-paste straight into Obsidian.
+
+## my quant roadmap
+
+this is my full stack — everything i’m reading, building, and learning to become a full quant. nothing extra, nothing missing. theory, application, and code — all layered.
 
 ---
 
-### 0. Calculus I-III **(you’re here)**
+### 0. Calculus I–III (this is where i’m starting)
 
-| Topic                                   | Primary text                             | Why this text?                                            |
-| --------------------------------------- | ---------------------------------------- | --------------------------------------------------------- |
-| Single-/multivariable calc, vector calc | **Wrede – _Schaum’s Advanced Calculus_** | Fast drill-heavy review; knocks out Calc 2-3 conventions. |
-
----
-
-### 🏗️ 1. Linear & Differential Core (start as soon as Calc II material feels natural)
-
-| Sequence               | Primary text                                   | What to master                                                                                                                                                                     |
-| ---------------------- | ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1A. Linear algebra     | **Axler – _Linear Algebra Done Right_**        | Abstract vector spaces, eigen-stuff, spectral theorem. Reddit & Math.SE threads still rank Axler the top proof-oriented LA book for quants. ([reddit.com](https://www.reddit.com)) |
-| 1B. Ordinary DEs       | **Arnold – _Ordinary Differential Equations_** | Geometric view; builds intuition you’ll reuse in stochastic calculus.                                                                                                              |
-| 1C. Probability theory | **Ross – _A First Course in Probability_**     | Full undergrad probability toolkit; industry-standard for quant interviews. ([amazon.com](https://www.amazon.com))                                                                 |
-
-Do 1A and 1C in parallel if you like variety; slot Arnold after Axler’s eigen material so phase-plane analysis makes sense.
+| topic                                  | book                                         | reason |
+|----------------------------------------|----------------------------------------------|--------|
+| calc ii, calc iii, vector calc         | **wrede – _schaum’s advanced calculus_**     | heavy problem drills, tight explanations, no fluff. gets me through calc ii–iii fast. |
 
 ---
 
-### 2. Analysis & Transforms (begin once Ross §5–7 feel solid)
-| Sequence                                                                  | Primary text                                                            | What it patches                                                                               |
-| ------------------------------------------------------------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| 2A. Real/metric analysis (select chapters)                                | **Rudin – _Principles of Mathematical Analysis_**                       | Limits, continuity, sequences of functions—needed for Karatzas-Shreve proofs later.           |
-| 2B. Fourier/Laplace, PDE intro, complex variables, vector-calc identities | **Boas – _Mathematical Methods in the Physical Sciences_ (Ch 5–7, 13)** | Fills every missing Kreyszig topic in one lean volume. ([reddit.com](https://www.reddit.com)) |
+### 1. linear algebra, odes, and probability (starts right after calc ii is smooth)
 
-Skim Boas surgically—only the chapters above.
+| topic                  | book                                          | why |
+|------------------------|-----------------------------------------------|-----|
+| linear algebra         | **axler – _linear algebra done right_**       | clean abstract foundations. spectral theorem. proof-focused, not just matrix crunch. |
+| differential equations | **arnold – _ordinary differential equations_**| builds intuition, everything’s visual and geometric. i’ll need this for stochastic calc. |
+| probability            | **ross – _a first course in probability_**    | covers everything from basic laws to CLT. interview standard, and just solid. |
 
----
-
-### 3. Numerical & Optimization (start after Boas Fourier/PDE chapters)
-
-| Topic                                                       | Primary text                                               | Why this text?                                                                                                                   |
-| ----------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| Numerical algorithms (roots, ODE/PDE discretisation, error) | **Burden & Faires – _Numerical Analysis_**                 | Still the go-to “all algorithms in one” text; learners praise its balance of math & code. ([reddit.com](https://www.reddit.com)) |
-| Convex & nonlinear optimisation                             | **Boyd & Vandenberghe – _Convex Optimization_** (free PDF) | Industry standard for portfolio & calibration problems. ([stanford.edu](https://web.stanford.edu/~boyd/cvxbook/))                |
-
-Do Boyd after Burden so matrix conditioning & line-search ideas aren’t foreign.
+i’ll probably do axler and ross at the same time, then bring in arnold once eigenvalues make sense.
 
 ---
 
-### 4. Econometrics & Time-Series (run in parallel with Numerical)
+### 2. analysis and transforms (start after ross §5–7 feels tight)
 
-| Level                 | Primary text                                         | Use-case                                                                                  |
-| --------------------- | ---------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| Undergrad / fast ramp | **Brooks – _Introductory Econometrics for Finance_** | Quick, example-driven intro. ([amazon.com](https://www.amazon.com))                       |
-| Grad / full depth     | **Hamilton – _Time Series Analysis_**                | ARIMA-GARCH-Kalman proofs; gold-standard PhD text. ([reddit.com](https://www.reddit.com)) |
+| topic                     | book                                               | purpose |
+|---------------------------|----------------------------------------------------|---------|
+| real analysis (selective) | **rudin – _principles of mathematical analysis_**  | need this for theoretical rigor — limits, sequences, convergence. essential for deeper finance math later. |
+| fourier/pde/complex       | **boas – _mathematical methods in the physical sciences_ (ch 5–7, 13)** | fills in gaps. quick punch of everything i skipped from physics/applied math books. |
 
-Start with Brooks, then dip into Hamilton chapter-by-chapter as you need rigor.
-
----
-
-### 📈 5. Stochastic Calculus & Monte-Carlo (only after 1C, 2A, 3 are comfortable)
-
-| Topic                           | Primary text                                                    | Why this text?                                                                                                                  |
-| ------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | | Continuous-time finance math    | **Karatzas & Shreve – _Brownian Motion & Stochastic Calculus_** | Deepest finance-flavoured stochastic calculus (combine with Shreve Vol I for intuition). ([amazon.com](https://www.amazon.com)) |
-| Variance-reduction & MC pricing | **Glasserman – _Monte Carlo Methods in Financial Engineering_** | Industry bible for MC Greeks & pathwise tricks. ([amazon.com](https://www.amazon.com))                                          |
+only doing key chapters from boas — not reading it end to end.
 
 ---
 
-### 🛡️ 6. Risk & Derivatives “Desk Books” (read concurrently with stochastic calc)
+### 3. numerical methods + optimization (start once fourier stuff from boas is solid)
 
-|Domain|Primary text|Purpose|
-|---|---|---|
-|Vanilla & exotic derivatives|**Hull – _Options, Futures & Other Derivatives_**|Practical pricing cookbook.|
-|Market-risk metrics (VaR/ES)|**Dowd – _Measuring Market Risk_**|Implement VaR back-tests; still cited in 2025 risk-job ads. ([amazon.com](https://www.amazon.com))|
+| topic                        | book                                         | why |
+|------------------------------|----------------------------------------------|-----|
+| numerical analysis           | **burden & faires – _numerical analysis_**   | every method in one place. discretizing PDEs, root finding, numerical error — critical for implementation. |
+| convex + nonlinear opt       | **boyd & vandenberghe – _convex optimization_** | this is what everyone uses in quant and ML. it's the standard. |
 
----
-
-### 💻 7. Implementation Layer (code while you study everything above)
-
-|Stack|Primary text|Goal|
-|---|---|---|
-|C++ engines & patterns|**Joshi – _C++ Design Patterns and Derivatives Pricing_**|Production-style Monte-Carlo and lattice engines.|
-|Python analytics|**Hilpisch – _Python for Finance_ (2nd ed.)**|Pandas, NumPy, vectorised Greeks; pairs with your NumPy project.|
+i’ll do boyd after burden, once i’ve got a grip on matrix conditioning and basic iterative methods.
 
 ---
 
-### ⚙️ 8. Systematic Trading, ML Alpha & Position Sizing **(application layer)**
+### 4. econometrics + time series (can run alongside numerical)
 
-|Focus area|Primary text|Why it’s worth adding|
-|---|---|---|
-|End-to-end systematic trading rules|**Carver – _Systematic Trading_**|Turns forecasts & risk constraints into live position sizes.|
-|ML feature engineering / regime detection|**López de Prado – _Advances in Financial Machine Learning_**|Walk-forward purging, fractional differentiation, DFML “edge” tricks all quants cite in 2025.|
-|Optimal leverage & money management|**Vince – _The Leverage Space Trading Model_ (or _Mathematics of Money Management_)**|Deep dive on sizing capital using Kelly/leverage-space; complements VaR & MC tools.|
+| level     | book                                                | use-case |
+|-----------|-----------------------------------------------------|----------|
+| undergrad | **brooks – _intro to econometrics for finance_**    | example-heavy and fast. gets me into regressions + time series quick. |
+| grad      | **hamilton – _time series analysis_**               | this is the real deal — ARIMA, GARCH, Kalman, everything the PhDs actually use. |
 
-Read Carver first (pairs well with Brooks back-tests), move to López de Prado when your Python stack is solid, then Vince while refining risk engines.
+start with brooks, move into hamilton chapter-by-chapter when i need depth.
 
 ---
 
-## 🗺️ **Progress Timeline (no fixed dates, just dependency order)**
+### 5. stochastic calculus + monte carlo (only after i’m clean on 1C, 2A, and 3)
 
-1. **Calc II-III refresh** – finish Schaum’s problem sets.
-    
-2. **Axler + Ross** (parallel); start **Arnold** once Axler Ch 6+ done.
-    
-3. **Selective Rudin** (limits → integration) then **Boas Ch 5–7, 13**.
-    
-4. **Burden & Faires** → **Boyd** while dabbling in **Brooks** examples.
-    
-5. Re-read key Ross chapters, then tackle **Karatzas & Shreve** (pair with Shreve Vol I for intuition).
-    
-6. Alongside stochastic calc, work through **Glasserman** MC chapters and **Hull** pricing recipes; implement in Python/C++.
-    
-7. Finish **Hamilton** time-series proofs as you build ARIMA/GARCH back-tests.
-    
-8. Layer on **Dowd** VaR/ES & stress testing once MC tools run.
-    
-9. **Carver** for systematic framework → **López de Prado** for ML alpha → **Vince** for advanced position sizing as you productionise strategies.
-    
+| topic                     | book                                                             | reason |
+|---------------------------|------------------------------------------------------------------|--------|
+| stochastic calculus       | **karatzas & shreve – _brownian motion and stochastic calculus_** | this is the deepest, most legit quant SDE book. i’ll pair with shreve vol 1 when needed. |
+| monte carlo + greeks      | **glasserman – _monte carlo methods in financial engineering_** | pricing via simulation, variance reduction, pathwise tricks. must-know for real pricing work. |
 
-By the end of step 9 you’ll have every math, stats, risk, ML, and execution tool a modern front-office quant or systematic-trading quant needs—nothing extra, nothing missing.
- 
+this is the phase where things go from theory to trading math.
+
+---
+
+### 6. risk + derivatives “desk books” (read these during stochastic calc)
+
+| domain                    | book                                               | why |
+|---------------------------|----------------------------------------------------|-----|
+| options + derivatives     | **hull – _options, futures, and other derivatives_**| everyone uses this. practical recipes. great for desk context. |
+| market risk               | **dowd – _measuring market risk_**                | VaR, backtesting, stress testing. still shows up in job postings. |
+
+these are plug-and-play books. not theory-first, but real-world needed.
+
+---
+
+### 7. implementation (code while reading everything above)
+
+| stack        | book                                               | goal |
+|--------------|----------------------------------------------------|------|
+| C++ systems  | **joshi – _C++ design patterns and derivatives pricing_** | production-style pricing engines, object-oriented MCs |
+| python stack | **hilpisch – _python for finance_ (2nd ed.)**      | pandas, NumPy, vectorized Greeks — ties into my NumPy lab |
+
+as i read each theory book, i’ll write code here — no passive reading.
+
+---
+
+### 8. systematic trading, ML, position sizing (final application phase)
+
+| topic                        | book                                                     | why |
+|------------------------------|----------------------------------------------------------|-----|
+| rule-based strategies        | **carver – _systematic trading_**                        | pure gold. how to size, allocate, and build strategies from the ground up. |
+| ML alpha & regime detection  | **lopez de prado – _advances in financial ML_**          | walk-forward testing, labeling, feature engineering — all the tools quants use now. |
+| leverage + money management  | **vince – _leverage space trading model_** or _math of money management_ | kelly criterion on steroids. risk frameworks that go beyond just “don’t overleverage.” |
+
+start with carver, move to LdP once my python game is tight, then bring in vince while testing edge cases.
+
+---
+
+## progress order (no fake deadlines, just dependencies)
+
+1. schaum’s advanced calc → finish all relevant calc II–III drills  
+2. axler + ross in parallel → start arnold when you hit eigenvalues  
+3. rudin selectively → then boas (only ch 5–7, 13)  
+4. burden & faires → boyd while reading brooks  
+5. re-read ross §5–8 → then hit karatzas & shreve + glasserman  
+6. add hull + dowd while doing monte carlo + greeks in code  
+7. work through hamilton proofs while building ARIMA/GARCH backtests  
+8. once MC and VaR tools are coded → start carver, LdP, and vince
+
+---
+
+this roadmap builds *everything* — math, probability, models, risk, code, ML, and trading logic.  
+when this is done, i'll have a quant foundation that doesn’t just match a graduate program — it surpasses it.
+
+all of this tbh is kind of tenative, i expect to add and remove more and more topics as time elapses, but it's good for now. currently reading hull, finishing schaum's, doing axler's linear algebra, and using synopsis of elementary results by carr as a little bedtime reading.

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reading List.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reading List"
+              "title": "README"
             }
           }
         ]
@@ -189,6 +189,9 @@
   },
   "active": "6f0b77afbfb28164",
   "lastOpenFiles": [
+    "study/Reading List.md",
+    "study/zettel stack and philosophy.md",
+    "README.md",
     "zettel stack and philosophy.md",
     "Reading List.md",
     "Welcome.md"
