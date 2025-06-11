@@ -1,5 +1,5 @@
 
-# 🧠 myquant
+# 🧠 mylibrary
 
 > *“I study myself more than any other subject. That is my metaphysics, that is my physics.”*  
 > — Michel de Montaigne
@@ -8,7 +8,7 @@
 
 I’m Deep Hayer, 15 years old, from Austin, Texas. I’ve been in college since I was 12. My focus is quantitative finance, systems trading, and self-mastery.
 
-This repo is a record of rigor, reflection, and execution. It’s not just a roadmap into quanthood. It’s how I study math, code, finance, and myself.
+This repo is a record of rigor, reflection, and execution. It’s how I study math, code, finance, and myself.
 
 The best thinkers didn’t just learn — they wrote, reflected, revised. This is how I build systems. This is how I build myself.
 
@@ -35,6 +35,9 @@ Topics include:
 - Real analysis, ODEs, stochastic calculus
 - Monte Carlo methods, portfolio optimization, risk modeling
 - Strategy engines, systematic trading, data pipelines
+- Philosophy amongst the likes of Montaigne, Plato, Nietzche, and more...
+
+This is going to be a mix of rigourous writing that of Montaigne, but simultaneously showing my entire thought process, even that of what might be seen as "sporadic."
 
 ## Why?
 
@@ -44,4 +47,4 @@ Mastery means solving problems while understanding yourself. This is a place to 
 
 The goal is to set a standard. To show that even one person, documenting clearly and building deliberately, can go deep. If you’re learning, moving, building — document it. Own it.
 
-This is my work. This is my quant.
+This is my work. But at the same time, what is mine, is yours.
