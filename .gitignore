@@ -1,0 +1,8 @@
+.obsidian/
+.DS_Store
+*.swp
+*.log
+*.aux
+*.out
+*.pdf
+study/daily
