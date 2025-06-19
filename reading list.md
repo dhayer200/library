@@ -1,7 +1,10 @@
 ---
-id: Reading List
-aliases: []
-tags: []
+id: reading list
+aliases:
+  - reading list
+tags:
+  - reading
+  - book
 ---
 
 ## my quant roadmap
