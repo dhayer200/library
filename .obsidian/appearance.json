@@ -1,4 +1,8 @@
 {
   "cssTheme": "Minimal",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "interfaceFontFamily": "Inter",
+  "textFontFamily": "Inter",
+  "baseFontSize": 16,
+  "baseFontSizeAction": false
 }

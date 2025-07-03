@@ -13,12 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "template/template.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "template"
             }
           }
         ]
@@ -53,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#fleeting",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254.5
+    "width": 200
   },
   "right": {
     "id": "5d5015d4c69497dd",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -113,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -137,78 +138,89 @@
             }
           },
           {
-            "id": "059088cbfa3158c3",
+            "id": "f26d3195ce2b957b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md",
+                "file": "fleeting/fleeting-philosophy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Outline of fleeting-philosophy"
+            }
+          },
+          {
+            "id": "8ce4caff87a461df",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "smart-random-note:Open Random Note from Search": false
+      "smart-random-note:Open Random Note from Search": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "a3a960a87ef75e5c",
+  "active": "8ea82d50a3bb5f48",
   "lastOpenFiles": [
-    "daily",
-    "reading list.md",
+    "fleeting/fleeting-philosophy.md",
+    "fleeting/fleeting-philosophy.md~",
+    "fleeting/complex-functions.md~",
+    "fleeting/partial-derivatives.md~",
+    "README.md~",
+    "template/default.md",
+    "fleeting/complex-functions.md",
     "README.md",
-    "permanent (full notes.. papers)/complex-functions.md",
-    "permanent (full notes & papers) 1/vectors.md",
-    "permanent (full notes & papers) 1/surface-integrals.md",
-    "permanent (full notes & papers) 1/series.md",
-    "permanent (full notes & papers) 1/partial-derivatives.md",
-    "permanent (full notes & papers) 1/multiple-integrals.md",
-    "permanent (full notes & papers) 1/line-integrals.md",
-    "permanent (full notes & papers) 1/integrals.md",
-    "permanent (full notes & papers) 1/integral-thereoms.md",
-    "permanent (full notes & papers) 1/gamma-beta-functions.md",
-    "permanent (full notes & papers) 1/complex-functions.md",
-    "permanent (full notes & papers) 1/fourier-series.md",
-    "permanent (full notes & papers) 1/fourier-integrals.md",
-    "permanent (full notes & papers) 1",
-    "permanent (full notes.. papers)/fourier-integrals.md",
-    "literature (references)/vectors.md",
-    "literature (references)/integrals.md",
-    "literature (references)/surface-integrals.md",
-    "literature (references)/integral-theorems.md",
-    "literature (references)/series.md",
-    "literature (references)/gamma-beta-functions.md",
-    "literature (references)/partial-derivatives.md",
-    "literature (references)/fourier-series.md",
-    "literature (references)/multiple-integrals.md",
-    "permanent/Untitled",
-    "Untitled",
-    "Untitled.canvas",
-    "code (applications)/vectors/vectors.py",
-    "code (applications)/vectors",
-    "code (applications)/integrals/integrals.py",
-    "code (applications)/integrals",
-    "code (applications)/surface-integrals/surface-integrals.py",
-    "code (applications)/surface-integrals",
-    "code (applications)/integral-theorems/integral-theorems.py"
+    "reading-list.md",
+    "Untitled.md",
+    "template/default.md~",
+    "Untitled.md~",
+    "20250620-6383.md~",
+    "20250620-6383.md",
+    "temp.md~",
+    "literature/partial-derivatives.md~",
+    "temp.md",
+    "hi.md",
+    "literature/integrals.md~",
+    "literature/1750413608-MNHF.md",
+    "tex/partial-derivatives/partial-derivatives.md",
+    "reading list.md",
+    "literature/partial-derivatives.md",
+    "literature/complex-functions.md",
+    "literature/fourier-integrals.md",
+    "literature/integral-theorems.md",
+    "literature/integrals.md",
+    "literature/line-integrals.md",
+    "fleeting/gamma-beta-functions.md",
+    "fleeting/multiple-integrals.md",
+    "fleeting/integrals.md",
+    "fleeting/fourier-series.md",
+    "fleeting/vectors.md",
+    "fleeting/surface-integrals.md",
+    "fleeting/series.md",
+    "fleeting/partial-derivatives.md",
+    "Untitled.canvas"
   ]
 }

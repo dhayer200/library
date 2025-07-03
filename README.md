@@ -1,56 +1,39 @@
-# 🧠 mylibrary
+# mylibrary
 
 > _“i study myself more than any other subject. that is my metaphysics, that is my physics.”_  
 > — michel de montaigne
 
 ## who am i?
 
-i’m deep hayer, 15 years old, from austin, texas. i’ve been in college since i was 12. my focus is quantitative finance, systems trading, and self-mastery.
+i’m deep hayer, 15 years old, from austin, texas. i’ve been in college since i was 12.
 
-this repo is a record of rigor, reflection, and execution. it’s how i study math, code, finance, and myself.
+this repo is a record of rigor, reflection, and execution. it’s how i study myself.
 
 the best thinkers didn’t just learn — they wrote, reflected, revised. this is how i build systems. this is how i build myself.
 
 ## structure
 
-nothing here is static. code, notes, and structure will evolve.
+nothing here is static. code, notes, and structure will evolve. tenative.
 
-### 🧾 `/library/`
+## library
 
 this is my zettelkasten system:
 
-- **fleeting notes**: raw ideas, unfiltered thoughts
+- **fleeting notes**: ideas that come to you, write all of them, if not near a laptop, iPad concepts processed later, notebook + pencil + eraser always on hand, voice recordings
     
-- **literature notes**: knowledge pulled from books, lectures, papers
+- **literature notes**: knowledge pulled from books, lectures, papers, something you want to remember and use later in your permanent notes
     
-- **permanent notes**: linked concepts, derivations, essays — inspired by montaigne
-    
-
-### 🧠 `/code/`
-
-same structure, in code:
-
-- **`/fleeting/`**: scratch scripts, math jots, problem solvers
-    
-- **`/literature/`**: code based on books, tutorials, reference materials
-    
-- **`/permanent/`**: full projects, simulation engines, quant toolkits
+- **permanent notes**: linked concepts, derivations, essays — inspired by montaigne, you are writing papers to inform others, liberating others with sharing your ideas
     
 
-topics include:
+###  `/code/`
 
-- calculus, linear algebra, probability, statistics
-    
-- real analysis, odes, stochastic calculus
-    
-- monte carlo methods, portfolio optimization, risk modeling
-    
-- strategy engines, systematic trading, data pipelines
-    
-- philosophy amongst the likes of montaigne, plato, nietzsche, and more...
-    
+implementations of fleeting notes, literature notes and permanent notes
 
-this is going to be a mix of rigorous writing that of montaigne, but simultaneously showing my entire thought process, even that of what might be seen as "sporadic."
+
+### what will be here? 
+
+anything, to limit my writing to one specific thing would be an injustice, write about anything, i'm mainly channeling montaigne.
 
 ## why?
 
@@ -101,7 +84,7 @@ first mathematician to listen to elijxhwtf 2025
 
 ## types of notes
 
-### 1. fleeting notes (`.md` only)
+### 1. fleeting notes (written anywhere, key word is spontaneous, idea comes to you, write it ASAP, if written physically scan it and send to self)
 
 fleeting notes must be referenced or deleted within 24 hours. a python script handles cleanup.  
 use these for quick **jots** or **scratch work** while reading or thinking.
@@ -109,11 +92,17 @@ use these for quick **jots** or **scratch work** while reading or thinking.
 > **example:**
 > 
 > ```markdown
-> % fleeting note  
-> % id: f001  
-> % date: 06/10/2025  
-> % note: improper integrals  
-> 
+> ---
+> id: F001
+> aliases:
+>  - improper integrals
+> tags:
+>  - fleeting
+>  - schaums
+>  - calculus
+>  - integrals
+> date: 06/20/2025
+> --- 
 > looks like you need to make $\lim_{b \to \infty}$.  
 > compare it to series later. who discovered them first?  
 > chapter 10, schaum’s outline — come back later.
@@ -128,11 +117,17 @@ you use these when you're writing permanent notes — they’re support material
 > **example:**
 > 
 > ```markdown
-> % literature note  
-> % id: l001  
-> % date: 06/10/2025  
-> % note: improper integrals formula  
-> 
+> ---
+> id: L001
+> aliases:
+>  - improper integrals
+> tags:
+>  - literature
+>  - schaums
+>  - calculus
+>  - integrals
+> date: 06/20/2025
+> ---  
 > $$
 > \int_a^{\infty} f(x) \, dx = \lim_{b \to \infty} \int_a^b f(x) \, dx
 > $$
@@ -151,12 +146,18 @@ you write these in latex, either with vimtex or obsidian.nvim. once it’s clean
 
 > **example:**
 > 
-> ```latex
-> % permanent note  
-> % id: p001  
-> % date: 06/10/2025  
-> % note: improper integrals  
-> 
+> ```latex -> markdown / markdown
+> ---
+> id: 1
+> aliases:
+>  - improper integrals
+> tags:
+>  - literature
+>  - schaums
+>  - calculus
+>  - integrals
+> date: 06/20/2025
+> ---   
 > a function $f(x)$ is said to have an improper integral over $[a, \infty)$ if...
 > 
 > you define it like this:
@@ -166,11 +167,10 @@ you write these in latex, either with vimtex or obsidian.nvim. once it’s clean
 > $$
 > 
 > you can use comparison tests if the limit doesn’t exist.
-> 
-> % import of problems done on paper goes here
 > ```
 
 ---
+
 
 ## note conversion pipeline
 

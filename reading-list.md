@@ -1,7 +1,6 @@
 ---
-id: reading list
-aliases:
-  - reading list
+id: "0"
+aliases: []
 tags:
   - reading
   - book
